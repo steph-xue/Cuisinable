@@ -38,6 +38,7 @@ body {
   border: none;
   border-radius: 2em;
   margin-top: 2em;
+  margin-bottom: 1em;
   cursor: pointer;
 }
 
@@ -62,12 +63,13 @@ body {
   height: 100vh;
 }
 
-.selector-intolerances {
-  color: black
+.selector {
+  width: 60vw;
 }
 
-.selector-cuisines {
-  color: black
+.selector-intolerances {
+  color: black;
+  margin-block: 1em;
 }
 
 .selector-intolerances-form {
@@ -75,10 +77,44 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.selector-cuisines {
+  color: black;
+  margin-block: 1em
+}
+
+.selector-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-left: 3em;
+}
+
+.btn-select-cuisine {
+  background-color: #242424;
+  width: 300px;
+  color: white;
+  font-size: 1em;
+  padding: 1em 2em;
+  border: none;
+  margin-block: 0.5em;
+  cursor: pointer;
+}
+
+.btn-select-cuisine:hover {
+  background-color: #754e1a;
+}
+
 .selector-bear {
-  padding-top: 2em;
+  padding-top: 15em;
 }
 
 .selector-bear-image {
-  width: 40em;
+  width: 35em;
+  margin-top: -3em;
+}
+
+.selector-bear-title {
+  font-size: 4em;
+  font-weight: 700;
+  margin-top: 1em;
 }
