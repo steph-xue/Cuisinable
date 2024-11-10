@@ -17,6 +17,7 @@ function Meals(props) {
       <div className="meal-container">
         {mealElements}
      </div>
+     <button className="button" onClick={props.getStarted}>Change Cuisine</button>
     </div>
   );
 }

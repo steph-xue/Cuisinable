@@ -1,9 +1,10 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.scss";
 import Landing from "./components/Landing";
 import Selector from "./components/Selector";
 import Meals from "./components/Meals";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
 
   const [getmeals, setGetmeals] = useState(false);
 
-  const [getrecipes, setGetrecipes] = useState(false);
+  const [getRecipes, setGetRecipes] = useState(false);
 
   const [intolerances, setIntolerances] = useState([]);
 
@@ -19,16 +20,21 @@ function App() {
 
   const [recipes, setRecipes] = useState([]);
 
+  const [imageURL, setImageURL] = useState("");
+  const [imageTitle, setImageTitle] = useState("");
+  const [imageDescription, setImageDescription] = useState("");
+  const [imageRecipe, setImageRecipe] = useState("");
+
   function getStarted() {
     setStart(true);
     setGetmeals(false);
-    setGetrecipes(false);
+    setGetRecipes(false);
   }
 
   function getMeals() {
     setStart(false);
     setGetmeals(true);
-    setGetrecipes(false);
+    setGetRecipes(false);
   }
 
   function saveUserIntolerances(event) {
@@ -58,13 +64,40 @@ function App() {
     })
   }
 
+  function toggleImage(imageSource, imageTitle, imageDescription, imageRecipe) {
+    if (getRecipes) {
+        setGetRecipes(false);
+        setImageURL("");
+        setImageTitle("");
+        setImageDescription("");
+        setImageRecipe(""); 
+    } else {
+        setGetRecipes(true);
+        setImageURL(imageSource);
+        setImageTitle(imageTitle);
+        setImageDescription(imageDescription);
+        setImageRecipe(imageRecipe);
+    }
+}
+
   return (
     <div className="App">
       {!start && !getmeals && <Landing getStarted={getStarted} />}
 
       {start && <Selector getMeals={getMeals} saveUserIntolerances={saveUserIntolerances} saveUserCuisine={saveUserCuisine} fetchMealSelections={fetchMealSelections}/>}
 
-      {getmeals && <Meals recipes={recipes}/>}
+      {getmeals && <Meals recipes={recipes} getStarted={getStarted} />}
+
+      {
+          getRecipes &&
+          <div className="full-recipe-container">
+              <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={toggleImage} />
+              <p className="full-image-title">{imageTitle}</p>
+              <img src={imageURL} alt="full-image" className="full-image" />
+              <p className="full-image-description">{imageDescription}</p>
+              <p className="full-image-recipe">{imageRecipe}</p>
+          </div>
+      }
     </div>
   );
 }

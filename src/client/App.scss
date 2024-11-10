@@ -129,13 +129,16 @@ body {
   font-size: 3em;
   font-weight: 700;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .meal-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.5em;
-  margin-left: 3em;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 2em;
 }
 
 .meal-card {
@@ -145,18 +148,19 @@ body {
   padding-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
+  padding-bottom: 1em;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   margin-top: 1em;
 }
 
 .meal-image {
-  width: 100%;
+  width: 85%;
   border-radius: 1em;
 }
 
 .meal-title {
   color: white;
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 400;
   margin-top: 1em;
 }
