@@ -29,7 +29,7 @@ body {
 }
 
 
-.start-button {
+.button {
   background-color: #242424;
   color: white;
   font-size: 1em;
@@ -40,7 +40,7 @@ body {
   cursor: pointer;
 }
 
-.start-button:hover {
+.button:hover {
   background-color: #505050;
 }
 
@@ -52,4 +52,23 @@ body {
 .landing-description {
   font-size: 1.5em;
   margin-bottom: 2em;
+}
+
+.selector-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100 vw;
+  height: 100vh;
+}
+
+.selector-intolerances-form {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.selector-bear {
+  width: 20em;
+  height: 20em;
+  margin: 2em;
 }
