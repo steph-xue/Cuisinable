@@ -1,8 +1,13 @@
+<p align="center">
+
 ### Cuisinably
+# The Accessible Recipe Guide
 
-![alt text](.bear/bear-chef.png)
+![alt text](public/images/bear-chef.png)
 
-HackCamp 2024 workshop.
+</p>
+
+HackCamp 2024.
 
 Please see branches for checkpoints!
 

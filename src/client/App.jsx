@@ -43,7 +43,6 @@ function App() {
   function saveUserCuisine(event) {
     console.log(cuisine);
     if (event.target.checked) {
-      setCuisine("");
       setCuisine(event.target.value);
     }
     if (!event.target.checked) {
@@ -55,7 +54,7 @@ function App() {
     fetch(`http://localhost:8000/selections?cuisine=${cuisine}&intolerances=${intolerances}`)
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      setRecipes(data.results);
     })
   }
 
@@ -65,7 +64,7 @@ function App() {
 
       {start && <Selector getMeals={getMeals} saveUserIntolerances={saveUserIntolerances} saveUserCuisine={saveUserCuisine} fetchMealSelections={fetchMealSelections}/>}
 
-      {getmeals && <Meals />}
+      {getmeals && <Meals recipes={recipes}/>}
     </div>
   );
 }

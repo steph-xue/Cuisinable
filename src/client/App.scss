@@ -124,3 +124,39 @@ body {
   font-weight: 700;
   margin-top: 1em;
 }
+
+.meals-title {
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.meal-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5em;
+  margin-left: 3em;
+}
+
+.meal-card {
+  background-color: #6C3E10;
+  border-radius: 1em;
+  width: 25vw;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 1em;
+}
+
+.meal-image {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.meal-title {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 1em;
+}

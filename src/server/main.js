@@ -23,7 +23,7 @@ app.get("/selections", (req, res) => {
         intolerancesList = intolerances;
     }
 
-    const endpoint = `cuisine=${cuisine}&intolerances=${intolerancesList}&number=10&addRecipeInformation=true&addRecipeInstructions=true&instructionsRequired=true`
+    const endpoint = `cuisine=${cuisine}&intolerances=${intolerancesList}&number=12&addRecipeInformation=true&addRecipeInstructions=true&instructionsRequired=true`
     const apiUrl = "https://api.spoonacular.com/recipes/complexSearch?" + endpoint + "&apiKey=" + apiKey
 
     fetch(apiUrl)
