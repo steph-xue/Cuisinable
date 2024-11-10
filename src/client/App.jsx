@@ -9,19 +9,29 @@ function App() {
 
   const [start, setStart] = useState(false);
 
-  const [getmeals, setGetmeals] = useState([]);
+  const [getmeals, setGetmeals] = useState(false);
 
-  const [getrecipes, setGetrecipes] = useState([]);
+  const [getrecipes, setGetrecipes] = useState(false);
+
+  const [recipes, setRecipes] = useState([]);
 
   function getStarted() {
     setStart(true);
+    setGetmeals(false);
+  }
+
+  function getMeals() {
+    setStart(false);
+    setGetmeals(true);
   }
 
   return (
     <div className="App">
-      {!start && <Landing getStarted={getStarted} />}
+      {!start && !getmeals && <Landing getStarted={getStarted} />}
 
-      {start && <Selector />}
+      {start && <Selector getMeals={getMeals} />}
+
+      {getmeals && <Meals />}
     </div>
   );
 }

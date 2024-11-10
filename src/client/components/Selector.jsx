@@ -1,6 +1,6 @@
 import React from "react";
 
-function Selector() {
+function Selector(props) {
   return (
     <div className="selector-page">
         <div className="selector">
@@ -136,7 +136,7 @@ function Selector() {
                         </div>
                     </div>
                 </form>
-            <button className="button">Get Recipes</button>
+            <button className="button" onClick={props.getMeals}>Get Recipes</button>
         </div>
         <div className="selector-bear">
             <h1 className="selector-bear-title">Cuisinably</h1>
