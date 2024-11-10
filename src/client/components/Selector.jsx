@@ -124,7 +124,7 @@ function Selector() {
                         </div>
                         <div>
                             <input type="radio" className="btn-check" id="spanish" name="cuisine-answer" value="spanish" />
-                            <label className="btn btn-select-cuisine" htmlFor="african">Spanish</label>
+                            <label className="btn btn-select-cuisine" htmlFor="spanish">Spanish</label>
                         </div>
                         <div>
                             <input type="radio" className="btn-check" id="thai" name="cuisine-answer" value="thai" />
