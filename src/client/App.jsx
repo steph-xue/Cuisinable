@@ -52,14 +52,18 @@ function App() {
   }
 
   function fetchMealSelections() {
-    const url = 
+    fetch("http://localhost:8000/selections?cuisine=italian&intolerances=Dairy,Grain,Seafood")
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+    })
   }
 
   return (
     <div className="App">
       {!start && !getmeals && <Landing getStarted={getStarted} />}
 
-      {start && <Selector getMeals={getMeals} saveUserIntolerances={saveUserIntolerances} saveUserCuisine={saveUserCuisine}/>}
+      {start && <Selector getMeals={getMeals} saveUserIntolerances={saveUserIntolerances} saveUserCuisine={saveUserCuisine} fetchMealSelections={fetchMealSelections}/>}
 
       {getmeals && <Meals />}
     </div>

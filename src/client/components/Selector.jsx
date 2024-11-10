@@ -137,7 +137,7 @@ function Selector(props) {
                         </div>
                     </div>
                 </form>
-            <button className="button" onClick={props.getMeals}>Get Recipes</button>
+            <button className="button" onClick={() => {props.getMeals(); props.fetchMealSelections()}}>Get Recipes</button>
         </div>
         <div className="selector-bear">
             <h1 className="selector-bear-title">Cuisinably</h1>

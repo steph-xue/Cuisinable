@@ -1,4 +1,5 @@
 import express from "express";
+import ViteExpress from "vite-express";
 import cors from "cors";
 
 const apiKey = "cbdcac716ecf4c738d0bf2f708d80e0c"
@@ -31,7 +32,7 @@ app.get("/selections", (req, res) => {
 });
 
 // Start the server and listen for requests on port 8000
-app.listen( port, () => {
+ViteExpress.listen( app, port, () => {
     console.log(`Server running on http://localhost:${port}
 `);
 });
