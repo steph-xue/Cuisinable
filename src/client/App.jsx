@@ -51,6 +51,10 @@ function App() {
     }
   }
 
+  function fetchMealSelections() {
+    const url = 
+  }
+
   return (
     <div className="App">
       {!start && !getmeals && <Landing getStarted={getStarted} />}

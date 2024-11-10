@@ -2,7 +2,6 @@ import React from "react";
 
 function Selector(props) {
 
-
   return (
     <div className="selector-page">
         <div className="selector">
