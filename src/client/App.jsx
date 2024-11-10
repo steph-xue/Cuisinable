@@ -39,7 +39,7 @@ function App() {
       setIntolerances(intolerances.filter(item => item !== event.target.value));
     }
   }
-
+  
   function saveUserCuisine(event) {
     console.log(cuisine);
     if (event.target.checked) {
