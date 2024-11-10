@@ -101,7 +101,12 @@ body {
 }
 
 .btn-select-cuisine:hover {
-  background-color: #754e1a;
+  background-color: #5c5c5c;
+}
+
+.btn-check:checked + .btn-select-cuisine {
+  background-color: #5c5c5c; 
+  color: white;
 }
 
 .selector-bear {
