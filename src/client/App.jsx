@@ -13,23 +13,49 @@ function App() {
 
   const [getrecipes, setGetrecipes] = useState(false);
 
+  const [intolerances, setIntolerances] = useState([]);
+
+  const [cuisine, setCuisine] = useState("");
+
   const [recipes, setRecipes] = useState([]);
 
   function getStarted() {
     setStart(true);
     setGetmeals(false);
+    setGetrecipes(false);
   }
 
   function getMeals() {
     setStart(false);
     setGetmeals(true);
+    setGetrecipes(false);
+  }
+
+  function saveUserIntolerances(event) {
+    console.log(intolerances);
+    if (event.target.checked) {
+      setIntolerances([...intolerances, event.target.value]);
+    } else {
+      setIntolerances(intolerances.filter(item => item !== event.target.value));
+    }
+  }
+
+  function saveUserCuisine(event) {
+    console.log(cuisine);
+    if (event.target.checked) {
+      setCuisine("");
+      setCuisine(event.target.value);
+    }
+    if (!event.target.checked) {
+      setCuisine([]);
+    }
   }
 
   return (
     <div className="App">
       {!start && !getmeals && <Landing getStarted={getStarted} />}
 
-      {start && <Selector getMeals={getMeals} />}
+      {start && <Selector getMeals={getMeals} saveUserIntolerances={saveUserIntolerances} saveUserCuisine={saveUserCuisine}/>}
 
       {getmeals && <Meals />}
     </div>
