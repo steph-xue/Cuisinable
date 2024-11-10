@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #99C08E;
+  background-color: #FDECE0;
   color: black;
   font-family: "Onest", sans-serif;
   font-optical-sizing: auto;
@@ -31,7 +31,7 @@ body {
 
 
 .button {
-  background-color: #242424;
+  background-color: #6C3E10;
   color: white;
   font-size: 1em;
   padding: 1em 2em;
@@ -43,7 +43,7 @@ body {
 }
 
 .button:hover {
-  background-color: #505050;
+  background-color: #735232;
 }
 
 .bear {
@@ -90,7 +90,7 @@ body {
 }
 
 .btn-select-cuisine {
-  background-color: #242424;
+  background-color: #6C3E10;
   width: 300px;
   color: white;
   font-size: 1em;
@@ -101,7 +101,8 @@ body {
 }
 
 .btn-select-cuisine:hover {
-  background-color: #5c5c5c;
+  background-color: #735232;
+  color: white
 }
 
 .btn-check:checked + .btn-select-cuisine {

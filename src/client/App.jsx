@@ -52,7 +52,7 @@ function App() {
   }
 
   function fetchMealSelections() {
-    fetch("http://localhost:8000/selections?cuisine=italian&intolerances=Dairy,Grain,Seafood")
+    fetch(`http://localhost:8000/selections?cuisine=${cuisine}&intolerances=${intolerances}`)
     .then(response => response.json())
     .then(data => {
       console.log(data);
