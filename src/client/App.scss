@@ -1,9 +1,10 @@
+
+
 body {
   background-color: #99C08E;
-  color: white;
+  color: black;
   font-family: "Onest", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   text-align: center;
   width: 100%;
@@ -61,14 +62,23 @@ body {
   height: 100vh;
 }
 
+.selector-intolerances {
+  color: black
+}
+
+.selector-cuisines {
+  color: black
+}
+
 .selector-intolerances-form {
-  color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .selector-bear {
-  width: 20em;
-  height: 20em;
-  margin: 2em;
+  padding-top: 2em;
+}
+
+.selector-bear-image {
+  width: 40em;
 }
