@@ -9,15 +9,6 @@ function Meals(props) {
     const [imageDescription, setImageDescription] = useState("");
     const [imageRecipe, setImageRecipe] = useState("");
 
-    const mealElements = props.recipes.map((meal, index) => {
-        return (
-            <div key={index} className="meal-card" onClick={() => toggleRecipes(meal.image, meal.title, meal.summary, meal.recipe)}>
-                <img className="meal-image" src={meal.image} alt={meal.title} />
-                <h2 className="meal-title">{meal.title}</h2>
-            </div>
-        );
-    });
-
     function stripHtmlTags(text) {
         return text.replace(/<[^>]*>/g, '');
     }
@@ -38,6 +29,28 @@ function Meals(props) {
         }
     }
 
+    const mealElements = props.recipes.map((meal, index) => {
+        const recipeInstructions = meal.analyzedInstructions.map((instruction, instIndex) => {
+            const steps = instruction.steps.map((step, stepIndex) => (
+                <li key={stepIndex}>{step.step}</li>
+            ));
+
+            return (
+                <div key={instIndex}>
+                    <h3>Instructions</h3>
+                    <ol>{steps}</ol>
+                </div>
+            );
+        });
+
+        return (
+            <div key={index} className="meal-card" onClick={() => toggleRecipes(meal.image, meal.title, meal.summary, recipeInstructions)}>
+                <img className="meal-image" src={meal.image} alt={meal.title} />
+                <h2 className="meal-title">{meal.title}</h2>
+            </div>
+        );
+    });
+
     return (
         <div className="meals-page">
             <h1 className="meals-title">Recipes tailored to you</h1>
@@ -54,7 +67,7 @@ function Meals(props) {
                         <div className="recipe-text">
                             <p className="full-image-title">{imageTitle}</p>
                             <p className="full-image-description">{imageDescription}</p>
-                            <p className="full-image-recipe">{imageRecipe}</p>
+                            <div className="full-image-recipe">{imageRecipe}</div>
                         </div>
                     </div>
                 </div>

@@ -140,7 +140,7 @@ function Selector(props) {
             <button className="button" onClick={() => {props.getMeals(); props.fetchMealSelections()}}>Get Recipes</button>
         </div>
         <div className="selector-bear">
-            <h1 className="selector-bear-title">Cuisinably</h1>
+            <h1 className="selector-bear-title">Cuisinable</h1>
             <img className="selector-bear-image" src="/images/bear-chef.png" alt="bear chef" />
         </div>
     
