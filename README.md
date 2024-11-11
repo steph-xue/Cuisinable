@@ -4,12 +4,12 @@
 
 ![alt text](public/images/bear-chef.png)
 
-## Cuisinable
-## Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
+# Cuisinable
+# Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
 
 </p>
 
-# Problem Statement:
+## Problem Statement:
 
 Have you ever craved a delicious recipe only to realize you can’t enjoy it because of a food intolerance, or awkwardly watched your friends eat because your dietary restrictions weren't considered? It’s a frustrating and excluding experience that many of us know all too well. That’s where Cuisinably comes in.
 
