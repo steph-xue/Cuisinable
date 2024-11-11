@@ -33,37 +33,38 @@ function Meals(props) {
     }
 
     const mealElements = props.recipes.map((meal, index) => {
-        const recipeInstructions = meal.analyzedInstructions.map((instruction, instIndex) => {
-            const steps = instruction.steps.map((step, stepIndex) => (
-                <li key={stepIndex}>{step.step}</li>
-            ));
-
-            return (
-                <div key={instIndex} className="recipe-instructions">
-                    <h3 className="recipe-instructions-title">Instructions</h3>
-                    <ol className="recipe-instructions-steps">{steps}</ol>
-                </div>
-            );
-        });
-
-        const recipeIngredients = meal.analyzedInstructions.map((instruction, instIndex) => {
+        // Safely access the first instruction object if it exists
+        const firstInstruction = meal.analyzedInstructions[0];
+    
+        const recipeInstructions = firstInstruction ? (
+            <div className="recipe-instructions" key={0}>
+                <h3 className="recipe-instructions-title">Instructions</h3>
+                <ol className="recipe-instructions-steps">
+                    {firstInstruction.steps.map((step, stepIndex) => (
+                        <li key={stepIndex}>{step.step}</li>
+                    ))}
+                </ol>
+            </div>
+        ) : null; // Return null if there is no instruction
+    
+        const recipeIngredients = firstInstruction ? (() => {
             // Use a Set to store unique ingredient names
             const uniqueIngredients = new Set();
-        
-            // Extract ingredients from the steps of the instruction
-            instruction.steps.forEach((step) => {
+    
+            // Extract ingredients from the steps of the first instruction
+            firstInstruction.steps.forEach((step) => {
                 step.ingredients.forEach((ingredient) => {
                     uniqueIngredients.add(ingredient.name);
                 });
             });
-        
+    
             // Convert the Set to an array of JSX list items
             const ingredients = Array.from(uniqueIngredients).map((ingredient, ingredientIndex) => (
                 <li className="ingredient" key={ingredientIndex}>{ingredient}</li>
             ));
-        
+    
             return (
-                <div key={instIndex} className="recipe-ingredients">
+                <div key={0} className="recipe-ingredients">
                     <h3 className="recipe-ingredients-title">Ingredients</h3>
                     <ul className="recipe-ingredients-list">
                         <div className="recipe-ingredients-list-box">
@@ -72,8 +73,8 @@ function Meals(props) {
                     </ul>
                 </div>
             );
-        });
-
+        })() : null; // Return null if there is no instruction
+    
         return (
             <div key={index} className="meal-card" onClick={() => toggleRecipes(meal.image, meal.title, meal.summary, recipeInstructions, recipeIngredients)}>
                 <img className="meal-image" src={meal.image} alt={meal.title} />

@@ -100,10 +100,6 @@ function Selector(props) {
                             <label className="btn btn-select-cuisine" htmlFor="japanese">Japanese</label>
                         </div>
                         <div>
-                            <input type="radio" className="btn-check" id="jewish" name="cuisine-answer" value="jewish" onChange={props.saveUserCuisine}/>
-                            <label className="btn btn-select-cuisine" htmlFor="jewish">Jewish</label>
-                        </div>
-                        <div>
                             <input type="radio" className="btn-check" id="korean" name="cuisine-answer" value="korean" onChange={props.saveUserCuisine}/>
                             <label className="btn btn-select-cuisine" htmlFor="korean">Korean</label>
                         </div>
@@ -137,11 +133,11 @@ function Selector(props) {
                         </div>
                     </div>
                 </form>
-            <button className="button" onClick={() => {props.getMeals(); props.fetchMealSelections()}}>Get Recipes</button>
         </div>
         <div className="selector-bear">
             <h1 className="selector-bear-title">Cuisinable</h1>
             <img className="selector-bear-image" src="/images/bear-chef.png" alt="bear chef" />
+            <button className="button button-get-recipes" onClick={() => {props.getMeals(); props.fetchMealSelections()}}>Get Recipes</button>
         </div>
     
     </div>

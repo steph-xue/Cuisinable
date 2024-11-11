@@ -39,12 +39,17 @@ body {
 }
 
 .button:hover {
-  background-color: #735232;
+  background-color: #995b1d;
 }
 
 .bear {
   height: 25em;
   margin-top: -2em;
+  transition: transform 0.5s ease-in-out;
+}
+
+.bear:hover {
+  transform: scale(1.1);
 }
 
 .landing-description {
@@ -65,7 +70,9 @@ body {
 
 .selector-intolerances {
   color: black;
-  margin-block: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  // margin-block: 0.5em;
 }
 
 .selector-intolerances-form {
@@ -73,10 +80,18 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: left;
   padding-left: 12vw;
+  font-size: 18px;
 }
 
 .selector-intolerances-form input[type="checkbox"] {
+  transform: scale(1.5);
   margin-right: 5px;
+}
+
+.selector-intolerances-form input[type="checkbox"]:checked {
+  background-color: green; /* changes background when checked */
+  border-color: green; /* changes the border to green */
+  accent-color: green; /* modern browsers (Chrome, Edge) support this for styling checkboxes */
 }
 
 .selector-cuisines {
@@ -86,45 +101,66 @@ body {
 
 .selector-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
   margin-left: 3em;
+  margin-bottom: 2em;
 }
 
 .btn-select-cuisine {
   background-color: #6C3E10;
-  width: 300px;
+  width: 200px;
+  height: 50px;
   color: white;
   font-size: 1em;
-  padding: 1em 2em;
+  padding: 0.8em 0.5em;
   border: none;
-  margin-block: 0.5em;
+  margin-block: 0.1em;
+  border-radius: 1.8em;
   cursor: pointer;
 }
 
 .btn-select-cuisine:hover {
-  background-color: #735232;
+  background-color: #995b1d;
   color: white;
 }
 
 .btn-check:checked + .btn-select-cuisine {
-  background-color: #5c5c5c;
+  background-color: #995b1d;
   color: white;
 }
 
+.button-get-recipes {
+  width: 250px; 
+  height: 80px;
+  font-size: 1.5em;
+  background-color: rgb(16, 85, 108);
+}
+
+.button-get-recipes:hover {
+  background-color: rgb(22, 111, 141);
+}
+
 .selector-bear {
-  padding-top: 15em;
+  padding: 0;
+  margin: 0;
 }
 
 .selector-bear-image {
   width: 35em;
-  margin-top: -3em;
+  margin-top: -5em;
+  margin-bottom: -2em;
+  transition: transform 0.5s ease-in-out;
+}
+
+.selector-bear-image:hover {
+  transform: scale(1.1);
 }
 
 .selector-bear-title {
   font-size: 4em;
   font-weight: 700;
-  margin-top: 1em;
+  margin-top: 2vh;
 }
 
 .meals-title {
