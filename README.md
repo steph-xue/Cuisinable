@@ -7,7 +7,7 @@
 
 </p>
 
-#Problem Statement:
+# Problem Statement:
 
 Have you ever craved a delicious recipe only to realize you can’t enjoy it because of a food intolerance? It’s a frustrating and excluding experience that many of us know all too well. That’s where Cuisinably comes in.
 
@@ -15,6 +15,6 @@ Cuisinably is your personal culinary assistant, passionately designed to empower
 
 # Features
 
-#FAQ
+# FAQ
 
 
