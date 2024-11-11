@@ -8,24 +8,27 @@ function Meals(props) {
     const [imageTitle, setImageTitle] = useState("");
     const [imageDescription, setImageDescription] = useState("");
     const [imageRecipe, setImageRecipe] = useState("");
+    const [imageIngredients, setImageIngredients] = useState("");
 
     function stripHtmlTags(text) {
         return text.replace(/<[^>]*>/g, '');
     }
 
-    function toggleRecipes(mealImage, mealTitle, mealDescription, mealRecipe) {
+    function toggleRecipes(mealImage, mealTitle, mealDescription, mealRecipe, mealIngredients) {
         if (getRecipes) {
             setGetRecipes(false);
             setImageURL("");
             setImageTitle("");
             setImageDescription("");
             setImageRecipe("");
+            setImageIngredients("");
         } else {
             setGetRecipes(true);
             setImageURL(mealImage);
             setImageTitle(mealTitle);
             setImageDescription(stripHtmlTags(mealDescription)); // Strips HTML tags
             setImageRecipe(mealRecipe);
+            setImageIngredients(mealIngredients);
         }
     }
 
@@ -36,15 +39,43 @@ function Meals(props) {
             ));
 
             return (
-                <div key={instIndex}>
-                    <h3>Instructions</h3>
-                    <ol>{steps}</ol>
+                <div key={instIndex} className="recipe-instructions">
+                    <h3 className="recipe-instructions-title">Instructions</h3>
+                    <ol className="recipe-instructions-steps">{steps}</ol>
+                </div>
+            );
+        });
+
+        const recipeIngredients = meal.analyzedInstructions.map((instruction, instIndex) => {
+            // Use a Set to store unique ingredient names
+            const uniqueIngredients = new Set();
+        
+            // Extract ingredients from the steps of the instruction
+            instruction.steps.forEach((step) => {
+                step.ingredients.forEach((ingredient) => {
+                    uniqueIngredients.add(ingredient.name);
+                });
+            });
+        
+            // Convert the Set to an array of JSX list items
+            const ingredients = Array.from(uniqueIngredients).map((ingredient, ingredientIndex) => (
+                <li className="ingredient" key={ingredientIndex}>{ingredient}</li>
+            ));
+        
+            return (
+                <div key={instIndex} className="recipe-ingredients">
+                    <h3 className="recipe-ingredients-title">Ingredients</h3>
+                    <ul className="recipe-ingredients-list">
+                        <div className="recipe-ingredients-list-box">
+                            {ingredients}
+                        </div>
+                    </ul>
                 </div>
             );
         });
 
         return (
-            <div key={index} className="meal-card" onClick={() => toggleRecipes(meal.image, meal.title, meal.summary, recipeInstructions)}>
+            <div key={index} className="meal-card" onClick={() => toggleRecipes(meal.image, meal.title, meal.summary, recipeInstructions, recipeIngredients)}>
                 <img className="meal-image" src={meal.image} alt={meal.title} />
                 <h2 className="meal-title">{meal.title}</h2>
             </div>
@@ -63,8 +94,11 @@ function Meals(props) {
                 <div className="full-recipe-container">
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={() => toggleRecipes()} />
                     <div className="recipe-container">
-                        <img src={imageURL} alt="full-image" className="full-image" />
-                        <div className="recipe-text">
+                        <div className="recipe-container-1">
+                            <img src={imageURL} alt="full-image" className="full-image" />
+                            <p className="full-image-ingredients">{imageIngredients}</p>
+                        </div>
+                        <div className="recipe-container-2">
                             <p className="full-image-title">{imageTitle}</p>
                             <p className="full-image-description">{imageDescription}</p>
                             <div className="full-image-recipe">{imageRecipe}</div>

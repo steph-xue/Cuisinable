@@ -72,7 +72,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: left;
-  padding-left: 10em;
+  padding-left: 12vw;
+}
+
+.selector-intolerances-form input[type="checkbox"] {
+  margin-right: 5px;
 }
 
 .selector-cuisines {
@@ -196,9 +200,56 @@ body {
   gap: 1em;
 }
 
-.recipe-text {
+.recipe-container-2 {
   width: 40vw;
   margin-left: 2em;
+}
+
+.recipe-instructions {
+  color: white;
+  margin-top: 1em;
+}
+
+.recipe-instructions-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 2em;
+}
+
+.recipe-instructions-steps {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.recipe-ingredients {
+  color: white;
+  margin-top: 1em;
+}
+
+.recipe-ingredients-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 2em;
+}
+
+.recipe-ingredients-list {
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.recipe-ingredients-list-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.ingredient  {
+  margin: -0.5em;
+  padding: 0;
 }
 
 .full-image-title {
