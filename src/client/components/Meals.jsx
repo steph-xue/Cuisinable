@@ -18,6 +18,10 @@ function Meals(props) {
         );
     });
 
+    function stripHtmlTags(text) {
+        return text.replace(/<[^>]*>/g, '');
+    }
+
     function toggleRecipes(mealImage, mealTitle, mealDescription, mealRecipe) {
         if (getRecipes) {
             setGetRecipes(false);
@@ -29,7 +33,7 @@ function Meals(props) {
             setGetRecipes(true);
             setImageURL(mealImage);
             setImageTitle(mealTitle);
-            setImageDescription(mealDescription);
+            setImageDescription(stripHtmlTags(mealDescription)); // Strips HTML tags
             setImageRecipe(mealRecipe);
         }
     }
@@ -45,10 +49,14 @@ function Meals(props) {
                 getRecipes &&
                 <div className="full-recipe-container">
                     <FontAwesomeIcon className="close-icon" icon={faCircleXmark} onClick={() => toggleRecipes()} />
-                    <p className="full-image-title">{imageTitle}</p>
-                    <img src={imageURL} alt="full-image" className="full-image" />
-                    <p className="full-image-description">{imageDescription}</p>
-                    <p className="full-image-recipe">{imageRecipe}</p>
+                    <div className="recipe-container">
+                        <img src={imageURL} alt="full-image" className="full-image" />
+                        <div className="recipe-text">
+                            <p className="full-image-title">{imageTitle}</p>
+                            <p className="full-image-description">{imageDescription}</p>
+                            <p className="full-image-recipe">{imageRecipe}</p>
+                        </div>
+                    </div>
                 </div>
             }
         </div>
