@@ -1,7 +1,5 @@
 <p align="center">
 
-
-<img src="public/images/bear-chef.png" width="400" height="400" />
 ![alt text](public/images/bear-chef.png)
 
 <h1 align="center">
