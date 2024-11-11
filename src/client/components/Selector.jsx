@@ -64,6 +64,10 @@ function Selector(props) {
                             <label className="btn btn-select-cuisine" htmlFor="american">American</label>
                         </div>
                         <div>
+                            <input type="radio" className="btn-check" id="british" name="cuisine-answer" value="british" onChange={props.saveUserCuisine}/>
+                            <label className="btn btn-select-cuisine" htmlFor="british">British</label>
+                        </div>
+                        <div>
                             <input type="radio" className="btn-check" id="caribbean" name="cuisine-answer" value="caribbean" onChange={props.saveUserCuisine}/>
                             <label className="btn btn-select-cuisine" htmlFor="caribbean">Caribbean</label>
                         </div>
@@ -126,10 +130,6 @@ function Selector(props) {
                         <div>
                             <input type="radio" className="btn-check" id="thai" name="cuisine-answer" value="thai" onChange={props.saveUserCuisine}/>
                             <label className="btn btn-select-cuisine" htmlFor="thai">Thai</label>
-                        </div>
-                        <div>
-                            <input type="radio" className="btn-check" id="vietnamese" name="cuisine-answer" value="vietnamese" onChange={props.saveUserCuisine}/>
-                            <label className="btn btn-select-cuisine" htmlFor="vietnamese">Vietnamese</label>
                         </div>
                     </div>
                 </form>
