@@ -4,7 +4,7 @@
 
 ![alt text](public/images/bear-chef.png)
 
-### Cuisinable
+# Cuisinable
 # Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
 
 </p>
