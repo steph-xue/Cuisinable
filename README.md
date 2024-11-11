@@ -20,11 +20,20 @@ Try it out here: https://cuisinable.onrender.com/
 
 Dietary restrictions are an issue that many people struggle with on a daily basis. It’s a frustrating and excluding experience, and Cuisinable aims to solve this issue.
 
-Cuisinable is your new personal culinary assistant, empowering individuals with food intolerences to enjoy diverse and delicious cuisines from around the world, safely. Simply input your food intolerances and cuisine preferences, and Cuisinable will generate a variety of recipes tailored to your specific needs. 
+Cuisinable is your new personal culinary assistant, empowering individuals with food intolerences to enjoy diverse and delicious cuisines from around the world, safely. With approximately 7% of Canadians self-reporting food allergies—and many more indicating food intolerances—finding recipes that meet specific dietary needs without sacrificing flavour can be a challenge. Cuisinable seeks to solve this problem by offering a welcoming, accessible platform where users can discover tailored recipes based on their dietary restrictions. Simply input your food intolerances and cuisine preferences, and Cuisinable will generate a variety of recipes tailored to your specific needs. 
+
+With a commitment to accessibility and thoughtful design, Cuisinable ensures a seamless experience for users of all abilities. Our friendly mascot, Chef Bearable, greets users on the landing page, setting a warm and approachable tone and guiding them through the recipe-generation process.
 
 Cuisinable is there every step of the way to ensure your recipe can be enjoyed by everyone. 
 
 ## Features
+
+* Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, such as avoiding peanuts, dairy, or gluten, to ensure all generated recipes align with their needs.
+* Cuisine preferences, where users can select a preferred cuisine (e.g., Chinese, Italian) to tailor the recipes even further.
+* Recipe generation: Cuisinable generates a selection of dishes within the chosen cuisine that meet the user's dietary restrictions.
+* Recipe details, where users can click into a recipe to view a summary, a list of ingredients, nutritional information, and step-by-step cooking instructions.
+* A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
+
 * Discover new cuisines from around the world based on your preferences and intolerences and:
   * View a detailed summary of the dish
   * Breakdown of the recipe
