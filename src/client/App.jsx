@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.scss";
+import "./App.css";
 import Landing from "./components/Landing";
 import Selector from "./components/Selector";
 import Meals from "./components/Meals";
