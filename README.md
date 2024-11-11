@@ -30,14 +30,12 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 
 * Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, such as avoiding peanuts, dairy, or gluten, to ensure all generated recipes align with their needs.
 * Cuisine preferences, where users can select a preferred cuisine (e.g., Chinese, Italian) to tailor the recipes even further.
-* Recipe generation: Cuisinable generates a selection of dishes within the chosen cuisine that meet the user's dietary restrictions.
-* Recipe details, where users can click into a recipe to view a summary, a list of ingredients, nutritional information, and step-by-step cooking instructions.
+* Discover new cuisines from around the world based on your intolerences and dietary restrictions:
+  * View a detailed summary of the dish
+  * Breakdown of the ingredients 
+  * Instructions on how to prepare the dish
 * A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
 
-* Discover new cuisines from around the world based on your preferences and intolerences and:
-  * View a detailed summary of the dish
-  * Breakdown of the recipe
-  * Instructions on how to prepare the dish
     
 * Filter recipes by various food intolerences:
   * Dairy
