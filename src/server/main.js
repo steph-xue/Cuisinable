@@ -2,7 +2,7 @@ import express from "express";
 import ViteExpress from "vite-express";
 import cors from "cors";
 
-const apiKey = "cbdcac716ecf4c738d0bf2f708d80e0c"
+const apiKey = "a5c060719a9a49be913fd9bb1bc6ae17"
 
 const port = 8000;
 const app = express();
