@@ -12,11 +12,6 @@ Making every meal possible, enjoyable, and accessible—because everyone deserve
 <p align="center">
 <img src="public/images/bear-chef.png" alt="drawing" width="350"/>
 
-
-<h1 align="center">
-Cuisinable
-</h1>
-
 </p>
 
 ## Problem Statement:
