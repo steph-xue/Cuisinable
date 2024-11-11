@@ -1,6 +1,5 @@
 <p align="center">
 
-![alt text](public/images/bear-chef.png)
 
 <h1 align="center">
 Cuisinable
@@ -10,18 +9,21 @@ Cuisinable
 Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
 </h1>
 
+<p align="center">
+<img src="public/images/bear-chef.png" alt="drawing" width="350"/>
+
 </p>
 
 ## Problem Statement:
 
-Have you ever craved a delicious recipe only to realize you can’t enjoy it because of a food intolerance, or awkwardly watched your friends eat because your dietary restrictions weren't considered? It’s a frustrating and excluding experience that many of us know all too well. That’s where Cuisinable comes in.
+Dietary restrictions are an issue that many people struggle with on a daily basis. It’s a frustrating and excluding experience, and Cuisinable aims to solve this issue.
 
-Cuisinable provides a medium for you to communicate with the one and only Chef Bearable, your new personal culinary assistant. Chef Bearable has made it their mission to empower individuals with food intolerences to enjoy diverse and delicious cuisines from around the world, safely. Simply input your food intolerances and cuisine preferences, and Chef Bearable will generate a variety of recipes tailored to your specific needs! 
+Cuisinable is your new personal culinary assistant, empowering individuals with food intolerences to enjoy diverse and delicious cuisines from around the world, safely. Simply input your food intolerances and cuisine preferences, and Cuisinable will generate a variety of recipes tailored to your specific needs. 
 
 Cuisinable is there every step of the way to ensure your recipe can be enjoyed by everyone. 
 
 ## Features
-* Embark on a journey with Chef Bearable to discover new cuisines from around the world based on your preferences and intolerences!
+* Discover new cuisines from around the world based on your preferences and intolerences and:
   * View a detailed summary of the dish
   * Breakdown of the recipe
   * Instructions on how to prepare the dish
@@ -61,8 +63,5 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Thai
   * Vietnamese
  
-
-
-## FAQ
 
 
