@@ -64,6 +64,25 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Spanish
   * Thai
   * Vietnamese
- 
+
+Cuisinable is built using:
+ * Front-end: React.js, JavaScript, HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
+ * Back-end: Node.js and Express.js to manage server requests and API integration.
+ * API: The Spoonacular API, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
+
+Some of the technical challenges and achievements of our project include:
+ * Connecting front-end to back-end and establishing seamless communication between the components for smooth functionality.
+ * API Data Management: Learning to filter and retrieve specific data from the Spoonacular API to ensure only allergy and intolerance-safe recipes are displayed.
+ * Server Configuration: Determining appropriate server ports and navigating Git branches for effective collaboration.
+ * Prototyping and designing a user-friendly interface for an intuitive user experience.
+   
+To enhance the Cuisinable experience, we envision the following:
+ * User profiles which allow users to save their dietary preferences and favorite recipes.
+ * An expanded recipe database to integrate a larger variety of recipes for more culinary choices.
+ * A search function that enables keyword searches for specific dishes or ingredients.
+ * Adding animations for a more dynamic and engaging interface.
+ * Introducing options for users to invite friends and collaborate on recipe lists for events like potlucks.
+
+With Cuisinable, we aim to make cooking more possible, enjoyable, and accessible for everyone, empowering individuals to create meals they can truly enjoy.
 
 
