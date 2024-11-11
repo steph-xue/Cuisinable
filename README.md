@@ -1,6 +1,5 @@
 <p align="center">
 
-![alt text](public/images/bear-chef.png)
 
 <h1 align="center">
 Cuisinable
@@ -8,6 +7,14 @@ Cuisinable
 
 <h1 alsign="center">
 Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
+</h1>
+
+<p align="center">
+<img src="public/images/bear-chef.png" alt="drawing" width="350"/>
+
+
+<h1 align="center">
+Cuisinable
 </h1>
 
 </p>
@@ -61,8 +68,5 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Thai
   * Vietnamese
  
-
-
-## FAQ
 
 
