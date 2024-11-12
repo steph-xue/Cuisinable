@@ -29,15 +29,7 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 ## Features
 
 * Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, such as avoiding peanuts, dairy, or gluten, to ensure all generated recipes align with their needs.
-* Cuisine preferences, where users can select a preferred cuisine (e.g., Chinese, Italian) to tailor the recipes even further.
-* Discover new cuisines from around the world based on your intolerences and dietary restrictions:
-  * View a detailed summary of the dish
-  * Breakdown of the ingredients 
-  * Instructions on how to prepare the dish
-* A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
-
-    
-* Filter recipes by various food intolerences:
+* Filter recipes by these various food intolerences:
   * Dairy
   * Egg
   * Gluten
@@ -50,8 +42,8 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Sulfite
   * Tree Nut
   * Wheat
-
-* Once food intolerances are selected, filter by various cuisines:
+* Cuisine preferences, where users can select a preferred cuisine (e.g., Chinese, Italian) to tailor the recipes even further.
+* Filter by these various cuisines:
   * American
   * Caribbean
   * Chinese
@@ -71,19 +63,25 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Spanish
   * Thai
   * Vietnamese
+* Discover new cuisines from around the world based on your intolerences and dietary restrictions:
+  * View a detailed summary of the dish
+  * Breakdown of the ingredients 
+  * Instructions on how to prepare the dish
+* A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
 
-Cuisinable is built using:
+    
+## Cuisinable is built using:
  * Front-end: React.js, JavaScript, HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
  * Back-end: Node.js and Express.js to manage server requests and API integration.
  * API: The Spoonacular API, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
 
-Some of the technical challenges and achievements of our project include:
+## Some of the technical challenges and achievements of our project include:
  * Connecting front-end to back-end and establishing seamless communication between the components for smooth functionality.
  * API Data Management: Learning to filter and retrieve specific data from the Spoonacular API to ensure only allergy and intolerance-safe recipes are displayed.
  * Server Configuration: Determining appropriate server ports and navigating Git branches for effective collaboration.
  * Prototyping and designing a user-friendly interface for an intuitive user experience.
    
-To enhance the Cuisinable experience, we envision the following:
+##  To enhance the Cuisinable experience, we envision the following:
  * User profiles which allow users to save their dietary preferences and favorite recipes.
  * An expanded recipe database to integrate a larger variety of recipes for more culinary choices.
  * A search function that enables keyword searches for specific dishes or ingredients.
