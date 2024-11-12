@@ -26,6 +26,8 @@ With a commitment to accessibility and thoughtful design, Cuisinable ensures a s
 
 Cuisinable is there every step of the way to ensure your recipe can be enjoyed by everyone. 
 
+<br>
+
 ## Features
 
 * Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, such as avoiding peanuts, dairy, or gluten, to ensure all generated recipes align with their needs.
@@ -69,17 +71,22 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Instructions on how to prepare the dish
 * A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
 
-    
+<br>
+
 ## Cuisinable is built using:
  * Front-end: React.js, JavaScript, HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
  * Back-end: Node.js and Express.js to manage server requests and API integration.
  * API: The Spoonacular API, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
+
+<br>
 
 ## Some of the technical challenges and achievements of our project include:
  * Connecting front-end to back-end and establishing seamless communication between the components for smooth functionality.
  * API Data Management: Learning to filter and retrieve specific data from the Spoonacular API to ensure only allergy and intolerance-safe recipes are displayed.
  * Server Configuration: Determining appropriate server ports and navigating Git branches for effective collaboration.
  * Prototyping and designing a user-friendly interface for an intuitive user experience.
+
+<br>
    
 ##  To enhance the Cuisinable experience, we envision the following:
  * User profiles which allow users to save their dietary preferences and favorite recipes.
@@ -87,6 +94,8 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
  * A search function that enables keyword searches for specific dishes or ingredients.
  * Adding animations for a more dynamic and engaging interface.
  * Introducing options for users to invite friends and collaborate on recipe lists for events like potlucks.
+
+<br>
 
 With Cuisinable, we aim to make cooking more possible, enjoyable, and accessible for everyone, empowering individuals to create meals they can truly enjoy.
 
