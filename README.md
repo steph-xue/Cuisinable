@@ -32,8 +32,12 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 
 ## Features
 
-* Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, such as avoiding peanuts, dairy, or gluten, to ensure all generated recipes align with their needs.
-* Filter recipes by these various food intolerences:
+* Landing page to welcome the user
+![Landing](./bear/landing.png?raw=true "Landing")
+
+<br>
+
+* Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, to ensure all generated recipes align with their needs:
   * Dairy
   * Egg
   * Gluten
@@ -46,8 +50,8 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Sulfite
   * Tree Nut
   * Wheat
-* Cuisine preferences, where users can select a preferred cuisine (e.g., Chinese, Italian) to tailor the recipes even further.
-* Filter by these various cuisines:
+    
+* Filter by cuisine preferences, where users can select a preferred cuisine to tailor the recipes even further:
   * American
   * Caribbean
   * Chinese
@@ -67,12 +71,19 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Spanish
   * Thai
   * Vietnamese
-* Discover new cuisines from around the world based on your intolerences and dietary restrictions:
+
+![Selector](./bear/selector.png?raw=true "Selector")
+
+<br>
+ 
+* Discover new meals from cuisines from around the world based on your intolerences and dietary restrictions:
   * View a detailed summary of the dish
   * Breakdown of the ingredients 
   * Instructions on how to prepare the dish
 * A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
 
+![Meals](./bear/meals.png?raw=true "Meals")  
+![Recipes](./bear/recipes.png?raw=true "Recipes")
 
 <br>
 
