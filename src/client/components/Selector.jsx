@@ -2,9 +2,12 @@ import React from "react";
 
 function Selector(props) {
 
+// Render the selector page
   return (
     <div className="selector-page">
         <div className="selector">
+
+            {/* Intolerance selection */}
             <h2 className="selector-intolerances">Select your food intolerance(s)</h2>
                 <form className="selector-intolerances-form" method="POST">
                     <div>
@@ -56,6 +59,8 @@ function Selector(props) {
                         <label htmlFor="wheat">Wheat</label>
                     </div>
                 </form>
+
+                {/* Cuisine selection */}
                 <h2 className="selector-cuisines">Select your preferred cuisine</h2>
                 <form className="selector-cuisines-form" method="POST">
                     <div class="radio-box selector-container">
@@ -134,6 +139,8 @@ function Selector(props) {
                     </div>
                 </form>
         </div>
+
+        {/* Bear chef image and get recipes button */}
         <div className="selector-bear">
             <h1 className="selector-bear-title">Cuisinable</h1>
             <img className="selector-bear-image" src="/images/bear-chef.png" alt="bear chef" />

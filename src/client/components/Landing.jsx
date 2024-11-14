@@ -1,6 +1,8 @@
 import React from "react";
 
 function Landing(props) {
+
+  // Render the landing page
   return (
     <div className="landing-page">
       <h1 className="landing-title">Cuisinable</h1>
