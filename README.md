@@ -71,12 +71,21 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Instructions on how to prepare the dish
 * A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
 
+
 <br>
 
 ## Cuisinable is built using:
- * Front-end: React.js, JavaScript, HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
+ * Front-end: React.js with Vite, JavaScript, HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
  * Back-end: Node.js and Express.js to manage server requests and API integration.
  * API: The Spoonacular API, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
+
+<br>
+
+## How to Run Locally
+- Install the latest version of node.js (JavaScript runtime server)
+- Install the latest version of npm (JavaScript package manager)
+- cd into the project folder and run 'npm install'
+- The web application can be run on your local server by typing in the command line 'npm run dev'
 
 <br>
 
