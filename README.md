@@ -10,6 +10,7 @@ Making every meal possible, enjoyable, and accessible—because everyone deserve
 </h1>
 
 Try it out here: https://cuisinable.onrender.com/
+Devpost link: https://devpost.com/software/cuisinably
 
 <p align="center">
 <img src="public/images/bear-chef.png" alt="drawing" width="350"/>
