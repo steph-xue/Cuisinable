@@ -90,7 +90,7 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 ## Cuisinable is built using:
  * Front-end: React.js with Vite, JavaScript, HTML, CSS, and Bootstrap for a responsive and visually appealing user interface.
  * Back-end: Node.js and Express.js to manage server requests and API integration.
- * API: The Spoonacular API, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
+ * API: The Spoonacular API found at https://spoonacular.com/food-api, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
 
 <br>
 
