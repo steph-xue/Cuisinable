@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import Selector from "./components/Selector";
 import Meals from "./components/Meals";
 
+// Render the App component
 function App() {
 
   // Set the initial state of the show start (landing) and getmeals pages to false
