@@ -9,7 +9,7 @@ Cuisinable
 Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
 </h1>
 
-Try it out here: https://cuisinable.onrender.com/
+Try it out here: https://cuisinable.onrender.com
 <br>
 Devpost link: https://devpost.com/software/cuisinably
 
