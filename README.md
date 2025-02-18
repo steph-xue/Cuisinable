@@ -53,6 +53,7 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
     
 * Filter by cuisine preferences, where users can select a preferred cuisine to tailor the recipes even further:
   * American
+  * British
   * Caribbean
   * Chinese
   * Eastern European
@@ -62,7 +63,6 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Indian
   * Italian
   * Japanese
-  * Jewish
   * Korean
   * Latin American
   * Mediterranean
@@ -70,7 +70,6 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
   * Middle Eastern
   * Spanish
   * Thai
-  * Vietnamese
 
 ![Selector](./bear/selector.png?raw=true "Selector")
 
