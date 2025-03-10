@@ -2,11 +2,11 @@
 
 
 <h1 align="center">
-Cuisinable
+ Cuisinable
 </h1>
 
-<h1 alsign="center">
-Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
+<h1 align="center">
+ Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
 </h1>
 
 Try it out here: https://cuisinable.onrender.com
@@ -14,8 +14,7 @@ Try it out here: https://cuisinable.onrender.com
 Devpost link: https://devpost.com/software/cuisinably
 
 <p align="center">
-<img src="public/images/bear-chef.png" alt="drawing" width="350"/>
-
+ <img src="public/images/bear-chef.png" alt="drawing" width="350"/>
 </p>
 
 ## Problem Statement:
@@ -32,54 +31,54 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 
 ## Features
 
-* Landing page to welcome the user
+- Landing page to welcome the user
 ![Landing](./bear/landing.png?raw=true "Landing")
 
 <br>
 
-* Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, to ensure all generated recipes align with their needs:
-  * Dairy
-  * Egg
-  * Gluten
-  * Grain
-  * Peanut
-  * Seafood
-  * Sesame
-  * Shellfish
-  * Soy
-  * Sulfite
-  * Tree Nut
-  * Wheat
-    
-* Filter by cuisine preferences, where users can select a preferred cuisine to tailor the recipes even further:
-  * American
-  * British
-  * Caribbean
-  * Chinese
-  * Eastern European
-  * French
-  * German
-  * Greek
-  * Indian
-  * Italian
-  * Japanese
-  * Korean
-  * Latin American
-  * Mediterranean
-  * Mexican
-  * Middle Eastern
-  * Spanish
-  * Thai
+Allergy and intolerance selection, where users can start by choosing their specific dietary restrictions, to ensure all generated recipes align with their needs:
+ - Dairy
+ - Egg
+ - Gluten
+ - Grain
+ - Peanut
+ - Seafood
+ - Sesame
+ - Shellfish
+ - Soy
+ - Sulfite
+ - Tree Nut
+ - Wheat
+
+Filter by cuisine preferences, where users can select a preferred cuisine to tailor the recipes even further:
+ - American
+ - British
+ - Caribbean
+ - Chinese
+ - Eastern European
+ - French
+ - German
+ - Greek
+ - Indian
+ - Italian
+ - Japanese
+ - Korean
+ - Latin American
+ - Mediterranean
+ - Mexican
+ - Middle Eastern
+ - Spanish
+ - Thai
 
 ![Selector](./bear/selector.png?raw=true "Selector")
 
 <br>
  
-* Discover new meals from cuisines from around the world based on your intolerences and dietary restrictions:
-  * View a detailed summary of the dish
-  * Breakdown of the ingredients 
-  * Instructions on how to prepare the dish
-* A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
+ - Discover new meals from cuisines from around the world based on your intolerences and dietary restrictions:
+  - View a detailed summary of the dish
+  - Breakdown of the ingredients
+  - Instructions on how to prepare the dish
+ - A ‘change cuisine’ button allows users to easily restart the recipe search process, updating their cuisine and intolerance preferences for a fresh set of recipes.
 
 ![Meals](./bear/meals.png?raw=true "Meals")  
 ![Recipes](./bear/recipes.png?raw=true "Recipes")
@@ -87,9 +86,9 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 <br>
 
 ## Cuisinable is built using:
- * Front-end: Used React.js with Vite, JavaScript, HTML5, CSS3, and Bootstrap4 to create a responsive and visually appealing user interface, parse and map JSON responses from the backend into reusable UI components, and render curated recipe cards with images, summaries, and step-by-step instructions through state management and props
- * Back-end: Implemented a Node.js and Express.js backend to handle user requests, dynamically constructing API calls to the Spoonacular API by constructing URL query strings and fetching filtered recipe data via fetch and .then( ) promise chaining
- * API: The Spoonacular API found at https://spoonacular.com/food-api, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
+- Front-end: Used React.js with Vite, JavaScript, HTML5, CSS3, and Bootstrap4 to create a responsive and visually appealing user interface, parse and map JSON responses from the backend into reusable UI components, and render curated recipe cards with images, summaries, and step-by-step instructions through state management and props
+- Back-end: Implemented a Node.js and Express.js backend to handle user requests, dynamically constructing API calls to the Spoonacular API by constructing URL query strings and fetching filtered recipe data via fetch and .then( ) promise chaining
+- API: The Spoonacular API found at https://spoonacular.com/food-api, which provides a comprehensive database of recipes that Cuisinable filters to match user specifications.
 
 <br>
 
@@ -102,19 +101,19 @@ Cuisinable is there every step of the way to ensure your recipe can be enjoyed b
 <br>
 
 ## Some of the technical challenges and achievements of our project include:
- * Connecting front-end to back-end and establishing seamless communication between the components for smooth functionality.
- * API Data Management: Learning to filter and retrieve specific data from the Spoonacular API to ensure only allergy and intolerance-safe recipes are displayed.
- * Server Configuration: Determining appropriate server ports and navigating Git branches for effective collaboration.
- * Prototyping and designing a user-friendly interface for an intuitive user experience.
+- Connecting front-end to back-end and establishing seamless communication between the components for smooth functionality.
+- API Data Management: Learning to filter and retrieve specific data from the Spoonacular API to ensure only allergy and intolerance-safe recipes are displayed.
+- Server Configuration: Determining appropriate server ports and navigating Git branches for effective collaboration.
+- Prototyping and designing a user-friendly interface for an intuitive user experience.
 
 <br>
    
 ##  To enhance the Cuisinable experience, we envision the following:
- * User profiles which allow users to save their dietary preferences and favorite recipes.
- * An expanded recipe database to integrate a larger variety of recipes for more culinary choices.
- * A search function that enables keyword searches for specific dishes or ingredients.
- * Adding animations for a more dynamic and engaging interface.
- * Introducing options for users to invite friends and collaborate on recipe lists for events like potlucks.
+- User profiles which allow users to save their dietary preferences and favorite recipes.
+- An expanded recipe database to integrate a larger variety of recipes for more culinary choices.
+- A search function that enables keyword searches for specific dishes or ingredients.
+- Adding animations for a more dynamic and engaging interface.
+- Introducing options for users to invite friends and collaborate on recipe lists for events like potlucks.
 
 <br>
 
