@@ -17,6 +17,14 @@ Devpost link: https://devpost.com/software/cuisinably
  <img src="public/images/bear-chef.png" alt="drawing" width="350"/>
 </p>
 
+## Contributors
+- Ryan Ariles
+- Victor Yu
+- Aaqib Patel
+- Stephanie Xue
+  
+<br>
+
 ## Problem Statement:
 
 Dietary restrictions are an issue that many people struggle with on a daily basis. It’s a frustrating and excluding experience, and Cuisinable aims to solve this issue.
