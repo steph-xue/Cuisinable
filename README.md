@@ -94,9 +94,18 @@ Filter by cuisine preferences, where users can select a preferred cuisine to tai
 
 ## How to Run Locally
 - Install the latest version of node.js (JavaScript runtime server)
+    - Check the version using the command
+        - ```node --version```
 - Install the latest version of npm (JavaScript package manager)
-- cd into the project folder and run 'npm install'
-- The web application can be run on your local server by typing in the command line 'npm run dev'
+    - Check the version using the command
+        - ```npm --version```
+- Clone the repository from github by typing in the command line
+    - HTTPS: ```git clone https://github.com/steph-xue/Cuisinable.git```
+    - SSH: ```git clone git@github.com:steph-xue/Cuisinable.git```
+- Install any dependencies by using the command
+    - ```npm install```
+- The web application can be run on your local server by typing the command
+    - ```npm run dev```
 
 <br>
 
