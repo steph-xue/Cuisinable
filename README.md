@@ -92,23 +92,6 @@ Filter by cuisine preferences, where users can select a preferred cuisine to tai
 
 <br>
 
-## How to Run Locally
-- Install the latest version of node.js (JavaScript runtime server)
-    - Check the version using the command
-        - ```node --version```
-- Install the latest version of npm (JavaScript package manager)
-    - Check the version using the command
-        - ```npm --version```
-- Clone the repository from github by typing in the command line
-    - HTTPS: ```git clone https://github.com/steph-xue/Cuisinable.git```
-    - SSH: ```git clone git@github.com:steph-xue/Cuisinable.git```
-- Install any dependencies by using the command
-    - ```npm install```
-- The web application can be run on your local server by typing the command
-    - ```npm run dev```
-
-<br>
-
 ## Some of the technical challenges and achievements of our project include:
 - Connecting front-end to back-end and establishing seamless communication between the components for smooth functionality.
 - API Data Management: Learning to filter and retrieve specific data from the Spoonacular API to ensure only allergy and intolerance-safe recipes are displayed.
@@ -127,5 +110,22 @@ Filter by cuisine preferences, where users can select a preferred cuisine to tai
 <br>
 
 With Cuisinable, we aim to make cooking more possible, enjoyable, and accessible for everyone, empowering individuals to create meals they can truly enjoy.
+
+<br>
+
+## How to Run Locally
+- Install the latest version of node.js (JavaScript runtime server)
+    - Check the version using the command
+        - ```node --version```
+- Install the latest version of npm (JavaScript package manager)
+    - Check the version using the command
+        - ```npm --version```
+- Clone the repository from github by typing in the command line
+    - HTTPS: ```git clone https://github.com/steph-xue/Cuisinable.git```
+    - SSH: ```git clone git@github.com:steph-xue/Cuisinable.git```
+- Install any dependencies by using the command
+    - ```npm install```
+- The web application can be run on your local server by typing the command
+    - ```npm run dev```
 
 
