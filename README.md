@@ -18,10 +18,10 @@ Devpost link: https://devpost.com/software/cuisinably
 </p>
 
 ## Contributors
-- Ryan Ariles
-- Victor Yu
 - Aaqib Patel
+- Ryan Ariles
 - Stephanie Xue
+- Victor Yu
   
 <br>
 
