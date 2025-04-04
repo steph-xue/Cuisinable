@@ -2,8 +2,9 @@
 
 
 <h1 align="center">
- Cuisinable
+ Cuisinable (Hackcamp 2024)
 </h1>
+
 
 <h1 align="center">
  Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
