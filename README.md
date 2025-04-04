@@ -1,15 +1,12 @@
-<p align="center">
-
-
 <h1 align="center">
- Cuisinable (Hackcamp 2024)
+ Cuisinable 
 </h1>
 
-
-<h1 align="center">
+<h2 align="center">
  Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
-</h1>
+</h2>
 
+<h3>Hackcamp 2024</h3>
 Try it out here: https://cuisinable.onrender.com
 <br>
 Devpost link: https://devpost.com/software/cuisinably
