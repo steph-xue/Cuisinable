@@ -1,15 +1,17 @@
-<h1 align="center">
-  Cuisinable
-</h1>
+<h1 align="center">Cuisinable</h1>
+<h2 align="center">(Hackcamp 2024)</h2>
 
 <h2 align="center">
-  Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
+  Making every meal possible, enjoyable, and accessible —<br>
+  because everyone deserves a plate that's made just for them.
 </h2>
 
-<h3 align="center">Hackcamp 2024</h3>
-
-<p align="center">Try it out here: https://cuisinable.onrender.com</p>
-<p align="center">Devpost link: https://devpost.com/software/cuisinably</p>
+<p align="center">
+  Try it out here: <a href="https://cuisinable.onrender.com">https://cuisinable.onrender.com</a>
+</p>
+<p align="center">
+  Devpost link: <a href="https://devpost.com/software/cuisinably">https://devpost.com/software/cuisinably</a>
+</p>
 
 <br>
 
