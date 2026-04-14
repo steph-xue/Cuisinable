@@ -1,18 +1,17 @@
-<h1 align="center">
- Cuisinable 
-</h1>
-
-<h2 align="center">
- Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
-</h2>
-
-<h3>Hackcamp 2024</h3>
-Try it out here: https://cuisinable.onrender.com
-<br>
-Devpost link: https://devpost.com/software/cuisinably
+<h1 align="center">Cuisinable</h1>
+<h3 align="center">Hackcamp 2024</h3>
 
 <p align="center">
- <img src="public/images/bear-chef.png" alt="drawing" width="350"/>
+  Making every meal possible, enjoyable, and accessible—because everyone deserves a plate that's made just for them.
+</p>
+
+<p align="center">
+  <a href="https://cuisinable.onrender.com">Demo</a> |
+  <a href="https://devpost.com/software/cuisinably">Devpost</a>
+</p>
+
+<p align="center">
+  <img src="public/images/bear-chef.png" alt="drawing" width="350"/>
 </p>
 
 ## Contributors
